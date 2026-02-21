@@ -13,22 +13,22 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #050508;
+  background: #0a0d11;
   font-family: 'IBM Plex Mono', monospace;
-  color: #C9CCD3;
+  color: #bfbab0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
 ::selection {
-  background: rgba(57, 255, 20, 0.2);
-  color: #f0f0f4;
+  background: rgba(255, 180, 84, 0.25);
+  color: #f0f0f0;
 }
 
 ::-moz-selection {
-  background: rgba(57, 255, 20, 0.2);
-  color: #f0f0f4;
+  background: rgba(255, 180, 84, 0.25);
+  color: #f0f0f0;
 }
 
 a {
