@@ -17,13 +17,18 @@ export const hero = {
 };
 
 export const about = {
-  bio: [
-    "I like building things for the web, mostly with React, TypeScript, and Remix. Frontend is home, but I go full stack when a project calls for it.",
-    "I keep things simple where I can. Accessible by default, no more dependencies than needed, no cleverness for the sake of it.",
-  ],
+  bio: ["I enjoy building software valuable to others."],
   info: [
-    { key: "focus", value: "Frontend-leaning Full Stack" },
-    { key: "values", value: "Clean Architecture, Accessibility, Minimal Deps" },
+    { key: "focus", value: "Full Stack, Mobile dev, Web dev" },
+    {
+      key: "principles",
+      value: "Clean Architecture, Accessibility, Minimal Deps",
+    },
+
+    {
+      key: "values",
+      value: "Provide useful software to make other peoples lives easier",
+    },
   ],
 };
 
