@@ -6,7 +6,7 @@ export default function TitleBar() {
         <span className="dot dot-yellow" />
         <span className="dot dot-green" />
       </div>
-      <span className="title-text">visitor@portfolio:~ — zsh — 80×24</span>
+      <span className="title-text">visitor@portfolio:~ — zsh</span>
       <div className="title-spacer" />
     </div>
   )

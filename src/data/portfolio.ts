@@ -1,13 +1,14 @@
 export const SECTIONS = ["about", "projects", "skills", "contact"] as const;
 export type Section = (typeof SECTIONS)[number];
 
-export const NEOFETCH_ART = `╭──────────────╮
-│              │
-│    > _       │
-│              │
-│              │
-╰──────────────╯
-  ════════════`;
+export const NEOFETCH_ART = `      ) )  )
+     ( (  (
+    ╭───────╮
+    │ ~   ~ ├╮
+    │       ││
+    │       ├╯
+    ╰───────╯
+     ═══════`;
 
 export const hero = {
   name: "Luke",
@@ -67,6 +68,11 @@ export const contact = {
       command: "open",
       value: "github.com/ljh-wd",
       url: "https://github.com/ljh-wd",
+    },
+    {
+      command: "open",
+      value: "x.com/ljhdev",
+      url: "https://x.com/ljhdev",
     },
   ],
 };
