@@ -2,7 +2,7 @@ import type { Ref } from 'react'
 import { about } from '../data/portfolio'
 import Panel from './Panel'
 
-const SEP_WIDTH = 12
+const SEP_CHARS = 6
 
 export default function About({ ref }: { ref?: Ref<HTMLElement> }) {
   return (
@@ -15,9 +15,7 @@ export default function About({ ref }: { ref?: Ref<HTMLElement> }) {
           {about.info.map((item) => (
             <div key={item.key} className="info-row">
               <span className="info-key">{item.key}</span>
-              <span className="info-sep">
-                {'─'.repeat(Math.max(2, SEP_WIDTH - item.key.length))}
-              </span>
+              <span className="info-sep">{'─'.repeat(SEP_CHARS)}</span>
               <span className="info-val">{item.value}</span>
             </div>
           ))}
