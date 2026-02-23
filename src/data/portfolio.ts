@@ -54,7 +54,7 @@ export const projects = [
 
 export const skills = {
   rows: [
-    { key: "Languages", value: "TypeScript, SQL" },
+    { key: "Languages", value: "JavaScript/TypeScript" },
     { key: "Frontend", value: "React, Remix (React Router), Vite" },
     { key: "Mobile", value: "React Native (Expo)" },
     { key: "Backend", value: "Node.js, Express" },
