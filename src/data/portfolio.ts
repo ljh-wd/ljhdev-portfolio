@@ -79,5 +79,10 @@ export const contact = {
       value: "x.com/ljhdev",
       url: "https://x.com/ljhdev",
     },
+    {
+      command: "open",
+      value: "buymeacoffee.com/ljhdev",
+      url: "https://buymeacoffee.com/ljhdev",
+    },
   ],
 };
