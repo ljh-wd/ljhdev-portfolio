@@ -44,11 +44,11 @@ export const projects = [
 
   {
     folder: "micro-saas/Inzora",
-    name: "Inzora (WIP)",
+    name: "Inzora",
     description:
       "Automated pain point scanner for Reddit, with a dashboard purely focused on actionalble insights to find a gap in the market for your next project.",
     tech: ["React", "TypeScript", "NodeJS/Express", "Prisma ORM"],
-    link: "",
+    link: "https://inzora.io",
   },
 ];
 
