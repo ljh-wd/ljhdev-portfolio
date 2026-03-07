@@ -34,7 +34,7 @@ export const about = {
 
 export const projects = [
   {
-    folder: "extensions/Optube/",
+    folder: "extensions/Optube",
     name: "Optube",
     description:
       "A Chrome extension purely focused on decluttering YouTube to each own's personal preference with a netflix style cinematic mode.",
@@ -49,6 +49,15 @@ export const projects = [
       "Automated pain point scanner for Reddit, with a dashboard purely focused on actionalble insights to find a gap in the market for your next project.",
     tech: ["React", "TypeScript", "NodeJS/Express", "Prisma ORM"],
     link: "https://inzora.io",
+  },
+
+  {
+    folder: "menubar/Shadow",
+    name: "Shadow (WIP)",
+    description:
+      "Menubar item for MacOS to control the brightness of individual apps regardless of their size or position on the screen",
+    tech: ["SwiftUI"],
+    link: "",
   },
 ];
 
