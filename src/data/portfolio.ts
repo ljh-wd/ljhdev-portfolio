@@ -57,7 +57,7 @@ export const projects = [
     description:
       "Menubar item for MacOS to control the brightness of individual apps regardless of their size or position on the screen",
     tech: ["SwiftUI"],
-    link: "https://shadow-menu-bar.dev",
+    link: "https://www.shadow-menu-bar.dev",
   },
 ];
 
