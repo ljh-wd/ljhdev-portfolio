@@ -53,7 +53,7 @@ export const projects = [
 
   {
     folder: "swift/Shadow",
-    name: "Shadow (WIP)",
+    name: "Shadow",
     description:
       "Menubar item for MacOS to control the brightness of individual apps regardless of their size or position on the screen",
     tech: ["SwiftUI"],
