@@ -90,6 +90,11 @@ export const contact = {
     },
     {
       command: "open",
+      value: "linkedn/luke-h",
+      url: "https://www.linkedin.com/in/luke-h-002229254/",
+    },
+    {
+      command: "open",
       value: "buymeacoffee.com/ljhdev",
       url: "https://buymeacoffee.com/ljhdev",
     },
