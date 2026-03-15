@@ -50,7 +50,6 @@ export const projects = [
     tech: ["SwiftUI"],
     link: "https://www.shadow-menu-bar.dev/",
   },
-
   {
     folder: "micro-saas/Flickable",
     name: "Flickable (WIP)",
@@ -58,6 +57,14 @@ export const projects = [
       "IOS app that cleans your photos in a satisfying fashion, with smart suggestions.",
     tech: ["React Native / Expo"],
     link: "https://www.flickable.app",
+  },
+  {
+    folder: "micro-saas/Inzora",
+    name: "Inzora",
+    description:
+      "Automated pain point scanner for Reddit, with a dashboard purely focused on actionalble insights to find a gap in the market for your next project.",
+    tech: ["React", "TypeScript", "NodeJS/Express", "Prisma ORM"],
+    link: "https://inzora.io",
   },
 ];
 
