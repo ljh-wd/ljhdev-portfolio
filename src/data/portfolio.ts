@@ -51,8 +51,8 @@ export const projects = [
     link: "https://www.shadow-menu-bar.dev/",
   },
   {
-    folder: "micro-saas/Flickable",
-    name: "Flickable (WIP)",
+    folder: "iOS/Flickable",
+    name: "Flickable",
     description:
       "IOS app that cleans your photos in a satisfying fashion, with smart suggestions.",
     tech: ["React Native / Expo"],
