@@ -43,12 +43,12 @@ export const projects = [
   },
 
   {
-    folder: "swift/Shadow",
-    name: "Shadow",
+    folder: "iOS/Loosy",
+    name: "Loosy",
     description:
-      "Menubar item for MacOS to control the brightness of individual apps regardless of their size or position on the screen",
-    tech: ["SwiftUI"],
-    link: "https://www.shadow-menu-bar.dev/",
+      "A quiet city guide for digital nomads. Land somewhere new and find laptop-friendly cafés, culture, and corners worth your time. Built natively for iOS with Expo.",
+    tech: ["React Native / Expo", "Expo UI (SwiftUI)"],
+    link: "https://loosy.app",
   },
   {
     folder: "iOS/Flickable",
